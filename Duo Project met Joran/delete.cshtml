@@ -1,0 +1,42 @@
+﻿@using System.Data;
+@using PlaylistEditor.App_Code;
+
+@{ 
+    Layout = null;
+}
+
+<!DOCTYPE html>
+@(
+        SongMethonds smds = Session["MijnDatabase"] as SongMethods;
+
+    DataSet ds = smds.GetAllSongs();
+
+)
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <h1></h1>
+    <div>
+        Weet je het zeker?
+        <form>
+            <input type="radio" name="yesno" value="yes" />ja
+            <input type="radio" name="yesno" value="no" />nee
+        </form>
+    </div>
+    @{ 
+        if (IsPost)
+        {
+            if(Request.Form["yesno"] == "yes")
+            {
+                int id = int.Parse(Request.QueryString["id"]);
+                smds.DeleteSong(id);
+            }
+        }
+    }
+</body>
+
+</html>
+        
