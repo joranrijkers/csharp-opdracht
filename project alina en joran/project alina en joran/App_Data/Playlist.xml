@@ -1,0 +1,111 @@
+<?xml version="1.0" standalone="yes"?>
+<playlist>
+  <song>
+    <id>1</id>
+    <artist>Gigi D'Agostino</artist>
+    <title>L'Amour Toujours</title>
+    <year>1999</year>
+    <genre>Dance</genre>
+    <time>4:02</time>
+    <file />
+  </song>
+  <song>
+    <id>2</id>
+    <artist>2 Brothers On The 4th Floor</artist>
+    <title>Come Take My Hand</title>
+    <year>1995</year>
+    <genre>Happy Hardcore</genre>
+    <time>5:13</time>
+    <file />
+  </song>
+  <song>
+    <id>3</id>
+    <artist>Moe Phoenix</artist>
+    <title>3%</title>
+    <year>2019</year>
+    <genre>Rap</genre>
+    <time>2:53</time>
+    <file />
+  </song>
+  <song>
+    <id>3</id>
+    <artist>Brynn Cartelli</artist>
+    <title>If I Could</title>
+    <year>2021</year>
+    <genre>Pop</genre>
+    <time>3:27</time>
+    <file />
+  </song>
+  <song>
+    <id>4</id>
+    <artist>Bruno Mars</artist>
+    <title>Count On Me</title>
+    <year>2010</year>
+    <genre>Pop</genre>
+    <time>3:14</time>
+    <file />
+  </song>
+  <song>
+    <id>5</id>
+    <artist>Younotus</artist>
+    <title>Your Favorite Song</title>
+    <year>2020</year>
+    <genre>Pop</genre>
+    <time>2:56</time>
+    <file />
+  </song>
+  <song>
+    <id>6</id>
+    <artist>Tima Belorusskih</artist>
+    <title>Probegal Mimo</title>
+    <year>2021</year>
+    <genre>Pop</genre>
+    <time>3:04</time>
+    <file />
+  </song>
+  <song>
+    <id>7</id>
+    <artist>Goody Grace</artist>
+    <title>Two Shots</title>
+    <year>2018</year>
+    <genre>Pop</genre>
+    <time>2:24</time>
+    <file />
+  </song>
+  <song>
+    <id>8</id>
+    <artist>Bakermat</artist>
+    <title>Baianá</title>
+    <year>2016</year>
+    <genre>Dance</genre>
+    <time>3:00</time>
+    <file />
+  </song>
+  <song>
+    <id>9</id>
+    <artist>2 Unlimited</artist>
+    <title>Get Ready</title>
+    <year>1992</year>
+    <genre>Techno</genre>
+    <time>3:42</time>
+    <file />
+  </song>
+  <song>
+    <id>10</id>
+    <artist>Jack van Gelder</artist>
+    <title>Summer Holiday</title>
+    <year>2021</year>
+    <genre>Pop</genre>
+    <time>2:13</time>
+    <file />
+  </song>
+  <song>
+    <id>11</id>
+    <artist>ABBA</artist>
+    <title>Waterloo</title>
+    <year>1974</year>
+    <genre>Pop</genre>
+    <time>2:42</time>
+    <file />
+  </song>
+</playlist>
