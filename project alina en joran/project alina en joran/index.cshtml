@@ -8,6 +8,13 @@
     Session["playlistClass"] = mySongMethods;
     Session["file"] = file;
 }
+
+@{ if (string.IsNullOrEmpty("file"))
+    {
+       <script>alert("Missing url");</script>
+    }
+}
+
 <!DOCTYPE html>
 
 <html>
@@ -30,7 +37,7 @@
                 <th scope="col">Year</th>
                 <th scope="col">Genre</th>
                 <th scope="col">Time</th>
-                <th scope="col">File</th>
+                <th scope="col">Youtube</th>
                 <th scope="col">Actions</th>
             </tr>
 
@@ -43,7 +50,7 @@
                     <td>@dr["year"]</td>
                     <td>@dr["genre"]</td>
                     <td>@dr["time"]</td>
-                    <td>@dr["file"]</td>
+                    <td><a href="@dr["file"]" target="_blank"><i class="fa fa-youtube"></i></a></td>
                     <td>
                         <a href="~/details.cshtml?id=@dr["id"]"><i class="fa fa-info-circle"></i></a>
                         <a href="~/update.cshtml?id=@dr["id"]"><i class="fa fa-edit"></i></a>
